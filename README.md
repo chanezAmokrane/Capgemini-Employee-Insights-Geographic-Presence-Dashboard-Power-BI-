@@ -1,57 +1,38 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Capgemini_2017_logo.svg" alt="Capgemini Logo" width="300"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Capgemini_2017_logo.svg" width="240"/>
 </p>
 
-# Capgemini – Employee Insights & Geographic Presence Dashboard 🌍
+# Capgemini – Employee Insights Dashboard (Power BI)
 
-## Présentation du projet
+## Contexte du projet
 
-Ce projet propose un dashboard Power BI destiné à analyser la structure interne et la présence géographique de Capgemini à travers le prisme des retours employés.
+Ma curiosité à analyser une entreprise internationale comme Capgemini, combinée à la volonté de mettre en pratique Power BI sur un cas concret, m’a conduit à réaliser ce projet d’analyse orientée métier.
 
-L’objectif est de transformer des données publiques issues d’avis collaborateurs en indicateurs clairs, lisibles et exploitables pour des profils métiers tels que :
-- Ressources humaines  
-- Management  
-- Recrutement  
-- Direction opérationnelle  
+## Objectifs du projet
 
-Le projet adopte une approche orientée business et organisationnelle, sans analyse financière.
-
----
-
-## Contexte business
-
-Capgemini est un acteur mondial du conseil, des services numériques et de la transformation digitale, présent dans de nombreux pays et structuré autour de multiples départements et rôles.
-
-Dans un contexte de compétitivité accrue sur le marché du talent, comprendre :
-- la répartition géographique des collaborateurs  
-- l’organisation par départements et fonctions  
-- la perception globale de l’expérience employé  
-
-constitue un levier stratégique pour la gestion des ressources humaines et l’attractivité de l’entreprise.
-
-Ce dashboard vise à offrir une vision synthétique et accessible de ces enjeux.
-
----
-
-## Objectifs du dashboard 🎯
-
-- Donner une visibilité claire sur la présence géographique de Capgemini  
+- Fournir une vue globale de la structure interne et de la présence géographique de Capgemini  
 - Analyser la répartition des collaborateurs par départements et rôles  
-- Mettre en lumière les tendances globales de satisfaction et d’expérience employé  
-- Faciliter la lecture des données pour des décideurs non techniques  
+- Mettre en évidence les tendances générales de l’expérience employé à partir des avis disponibles  
 
----
 
-## Périmètre de l’analyse
+## Source des données
 
-Le projet couvre principalement :
-- Les départements et fonctions internes  
-- Les localisations géographiques  
-- Les indicateurs non financiers liés à l’expérience employé  
-- Les retours qualitatifs (points positifs et axes d’amélioration)
+La base de données utilisée provient de Kaggle et repose sur des avis d’employés de Capgemini.  
+Elle contient notamment des informations sur :
+- les rôles et départements  
+- les localisations géographiques  
+- des indicateurs non financiers liés à l’expérience employé  
+- des retours qualitatifs (points positifs et axes d’amélioration)
 
-Ce travail ne traite volontairement pas de chiffres financiers, afin de se concentrer sur les dimensions humaines et organisationnelles.
+Ces données ont été exploitées dans un cadre d’analyse professionnelle et pédagogique.
 
----
+## Première étape : nettoyage et préparation des données
 
-✨ Projet conçu comme un cas d’usage professionnel, destiné à illustrer une démarche d’analyse orientée métier à l’aide de Power BI.
+Une première analyse exploratoire a permis d’identifier la qualité des données, notamment le taux de valeurs manquantes par colonne.
+
+Les décisions prises incluent :
+- suppression des colonnes non exploitables avec un taux élevé de valeurs manquantes  
+- conservation des variables clés liées à l’organisation et à la géographie  
+- traitement des valeurs manquantes afin de garantir la lisibilité et la cohérence du dashboard  
+
+Cette étape a permis de préparer une base fiable pour les analyses et visualisations Power BI.
